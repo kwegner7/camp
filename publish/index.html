@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Use Cases</title>
+  <link rel="stylesheet" type="text/css" href="css/camp.css" />
+</head>
+
+<body>
+
+<!-- TITLE BLOCK -->
+<div  class=divcenter>
+  </br>
+  <hr style="font-weight:bold;">
+  <h1>CAMP ADMINISTRATION INFORMATION SYSTEM</br>USE CASES</h1>
+  <hr style="font-weight:bold;">
+</div>
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- USE CASE DIAGRAM 1 -->
+<div class=divcenter style="margin-top:30px; margin-bottom:10px;">
+  <img src="images/med-schedule.jpg" width="700" />
+</div>
+
+<!-- BEGIN USE CASE DESCRIPTION 1 -->
+<div class=usecase>
+<ul style="list-style-type:none">
+
+<!-- USE CASE TITLE 1 -->
+<li>
+  <span class=emph>Use Case:</span></br>
+  <span class=indent>Safely Administer Medications</span>
+</li>
+</br>
+
+<!-- USE CASE GOAL 1 -->
+<li>
+  <span class=emph>Goal:</span></br>
+  <span class=indent>Create a detailed medication schedule for each camper
+    to be used by <i>Health Supervisors</i>, <i>Cabin Leads</i>, 
+    <i>Administrators</i> and <i>Guardians</i>.</span>
+</li>
+</br>
+
+<!-- RELATED DATABASES 1 -->
+<li>
+<span class=emph>Related Databases:</span></br>
+<span class=indent>
+Campers Database</br>
+Meds Database</br>
+Med Admin Schedules Database</br>
+Scholarship Requests Database
+</span>
+</li>
+</br>
+
+<!-- USE CASE ACTIONS 1 -->
+<li><span class=emph>Actions:</span></li>
+<li><ul style="list-style-type:disc">
+
+<li>
+  <i>Guardian</i> fills out detailed forms for <i>Camper</i> 
+  and submits to <i>Administrator</i>.
+  These forms include medication information if necessary.
+</li>
+
+<li>
+  <i>Administrator</i> enters the personal information of
+  the <i>Camper</i> into the <i>Campers Database</i> and possibly updates the
+  <i>Scholarship Requests Database</i>
+</li>
+
+<li>
+  <i>Health Supervisor</i> enters the specification of each medication
+  required by the <i>Camper</i> into the <i>Meds Database</i>.
+</li>
+
+<li>
+  Based upon the <i>Meds Database</i> and the <i>Campers Database</i>,
+  the <i>Health Supervisor</i> creates entries in the <i>Med Admin Schedules Database</i>.
+  This database determines the schedule for administering medications to each camper.
+  It also specifies if the medication is to be administered by the <i>Care Group Lead</i> or
+  by the <i>Health Supervisor</i>.
+</li>
+
+<li>
+  As needed, the <i>Administrator</i> prints the  <i>Med Admin Schedules Database</i>
+  and distributes relevant pages to the <i>Health Supervisors</i>, <i>Care Group Leads</i>,
+  and <i>Guardians</i>.
+</li>
+
+<li>
+  At the start of camp, <i>Guardian</i> brings medications to <i>Health Supervisors</i>
+  and signs a printout confirming that the medication schedule for the <i>Camper</i> is correct.
+</li>
+
+<li>
+  During the camp week, <i>Health Supervisors</i> and <i>Care Group Leads</i> administer medications
+  according to the schedule determined by the <i>Med Admin Schedules Database</i>.
+</li>
+
+<li>
+  At the end of the camp week, <i>Health Supervisors</i> returns leftover medications
+  to the <i>Guardian</i> who signs receipt..
+</li>
+
+<!-- END LIST OF ACTIONS 1 -->
+</ul></li>
+
+<!-- END USE CASE DESCRIPTION 1 -->
+</ul>
+</div>
+
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- USE CASE DIAGRAM 2 -->
+<div class=divcenter style="margin-top:30px; margin-bottom:10px;">
+  <img src="images/aides.jpg" width="700" />
+</div>
+
+<!-- BEGIN USE CASE DESCRIPTION 2 -->
+<div class=usecase>
+<ul style="list-style-type:none">
+
+<!-- USE CASE TITLE 2 -->
+<li>
+  <span class=emph>Use Case:</span></br>
+  <span class=indent>Deploy Aides</span>
+</li>
+</br>
+
+<!-- USE CASE GOAL 2 -->
+<li>
+  <span class=emph>Goal:</span></br>
+  <span class=indent>Solicit, train, and deploy aides to perform the challenging
+    tasks related to the care and nurture of campers.</span>
+</li>
+</br>
+
+<!-- RELATED DATABASES 2 -->
+<li>
+<span class=emph>Related Databases:</span></br>
+<span class=indent>
+Volunteer Recruiting Contacts Database</br>
+Aides/Staff Database</br>
+Aide Assessments/Recommendations Database</br>
+Staff Responsibilities Database</br>
+</span>
+</li>
+</br>
+
+<!-- USE CASE ACTIONS 2 -->
+<li><span class=emph>Actions:</span></li>
+<li><ul style="list-style-type:disc">
+
+<li>
+  <i>Camp Administrator</i> coordinates volunteers to inform churches of the
+     camp ministry and need for aide volunteers. The <i>Volunteer Recruiting Contacts Database</i> is
+     used to facilitate this activity.
+</li>
+
+<li>
+  <i>Aide</i> submits an application to be considered as an aide volunteer for the coming
+  camp week.
+</li>
+
+<li>
+  <i>Recommender</i> fills online form and submits.
+</li>
+
+<li>
+  <i>Database Administrator</i> enters the aide information into the <i>Aides/Staff Database</i>
+  and the recommendation into the <i>Aide Assessments/Recommendations Database</i>.
+</li>
+
+<li>
+  <i>Camp Administrator</i> reviews aide applications and selects candidates.
+</li>
+
+<li>
+  <i>Camp Administrator</i> coordinates training sessions for new and experienced
+  aides and coordinates retreat weekend.
+</li>
+
+<li>
+  <i>Aide</i> volunteers for tasks to be performed during camp week.
+</li>
+
+<li>
+  <i>Camp Administrator</i> assigns aides to tasks using the <i>Staff Responsibilities Database</i>.
+</li>
+
+<li>
+  During camp week, <i>Aide</i> cares for campers and fulfills assigned tasks.
+</li>
+
+<!-- END LIST OF ACTIONS 2 -->
+</ul></li>
+
+<!-- END USE CASE DESCRIPTION 2 -->
+</ul>
+</div>
+<!-- ----------------------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- USE CASE DIAGRAM 3 -->
+<div class=divcenter style="margin-top:30px; margin-bottom:10px;">
+  <img src="images/planning.jpg" width="700" />
+</div>
+
+<!-- BEGIN USE CASE DESCRIPTION 3 -->
+<div class=usecase>
+<ul style="list-style-type:none">
+
+<!-- TITLE 3 -->
+<li>
+  <span class=emph>Use Case:</span></br>
+  <span class=indent>Organize Camp Activities</span>
+</li>
+</br>
+
+<!-- GOAL 3 -->
+<li>
+  <span class=emph>Goal:</span></br>
+  <span class=indent>
+    Plan and schedule camp activities, assign aides and campers to care groups.
+    Post camp receive feedback and recommendations.
+    </span>
+</li>
+</br>
+
+<!-- RELATED DATABASES 3 -->
+<li>
+<span class=emph>Related Databases:</span></br>
+<span class=indent>
+Housing Resources Database</br>
+Care Groups Database</br>
+Improvement Idea/Suggestion Database</br>
+</span>
+</li>
+</br>
+
+<!-- ACTIONS 3 -->
+<li><span class=emph>Actions:</span></li>
+<li><ul style="list-style-type:disc">
+
+<li>
+  <i>Camp Administrator</i> plans and schedules camp activities. 
+</li>
+
+<li>
+  <i>Camp Administrator</i> assigns aides and campers to care groups by creating the
+     <i>Housing Resources Database</i> and the <i>Care Groups Database</i>. 
+</li>
+
+<li>
+  <i>Camp Administrator</i> supervises camp week.
+</li>
+
+<li>
+  <i>Camper</i> participates in camp activities.
+</li>
+
+<li>
+  After camp week, <i>Aide</i> provides feedback and recommendations using
+  online form. <i>Administrator</i> enters recommendations
+  into the <i>Improvement Idea/Suggestion Database</i>. 
+</li>
+
+<!-- END LIST OF ACTIONS 3 -->
+</ul></li>
+
+<!-- END USE CASE DESCRIPTION 3 -->
+</ul>
+</div>
+
+<!-- ----------------------------------------------------------------------- -->
+</br></br>
+</body>
+</html>
+
+
+
+<!-- THESE ARE THE ACTORS
+
+<i>Guardian</i>
+<i>Camper</i>
+<i>Administrator</i>
+<i>Aide</i>
+<i>Recommender</i>
+<i>Care Group Lead</i>
+
+
+
+-- THESE ARE THE DATABASE TABLES
+
+<i>Campers Database</i>
+<i>Meds Database</i>
+<i>Med Admin Schedules Database</i>
+<i>Aides/Staff Database</i>
+<i>Housing Resources Database</i>
+<i>Aide Assessments/Recommendations Database</i>
+<i>Scholarship Requests Database</i>
+<i>Staff Responsibilities Database</i>
+<i>Care Groups Database</i>
+<i>Volunteer Recruiting Contacts Database</i>
+<i>Improvement Ideas/Suggestions Database</i>
+
+-->
+
+
+
+

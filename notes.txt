@@ -1,0 +1,85 @@
+
+http://kwegner7.github.io/camp/publish
+file:///proj/camp/publish/index.html
+
+
+#===============================================================================
+# HOW THIS WEBSITE PAGE WAS CREATED
+#===============================================================================
+
+Create a new repository:
+    https://github.com/kwegner7/camp 
+And the link will be:
+    http://kwegner7.github.io/camp
+
+# Create a new .git folder here
+  cd /proj/special-camp
+  git init
+  git add . 
+  git commit -m "Special Camp Project"
+
+# Manually create a new repository at GitHub
+   click New Repository, then enter name "special-camp", then Create, then copy the link
+
+https://github.com/kwegner7/new-special-camp.git
+
+# Add the new Github repository as a remote
+  git remote add github https://github.com/kwegner7/new-special-camp.git
+  git remote -v
+  git push github master
+
+# Create a branch so that GitHub will export and allow web pages
+  git branch gh-pages
+  git checkout gh-pages
+  git push -u github gh-pages
+
+# Create a backup repository on USB
+  cd /media/kurt/8GB-BLUE4/git
+  git clone --mirror /proj/special-camp/.git
+  cd special-camp.git && git remote -v
+      origin  /proj/special-camp/.git (fetch)
+      origin  /proj/special-camp/.git (push)
+
+# Add the new backup repository as a remote
+  cd /proj/special-camp
+  git remote add backup /media/kurt/8GB-BLUE4/git/special-camp.git 
+  git push -u backup gh-pages
+  git diff gh-pages backup/gh-pages
+
+# This simplifies the push commands
+  git push -u github gh-pages
+  git push -u backup gh-pages
+
+git remote -v
+git branch -v
+
+git push github
+git push backup
+
+
+
+
+
+#===============================================================================
+# HOW TO DOCUMENT THE PROPOSED:NEW SPECIAL CAMP
+#===============================================================================
+
+/proj/special-camp/publish
+   contains index.html and reference-documents.html
+/proj/special-camp/publish/docs
+   contains the reference pdf documents of interest
+/proj/special-camp/publish/tomboy
+   contains tomboy notes from the notebook "SPECIAL CAMP DESCRIPTION"
+
+rm -r /proj/special-camp/publish/tomboy
+Open the notebook "SPECIAL CAMP DESCRIPTION"
+From Tomboy Search - Tools - Export - Export Selected Notebook
+to /proj/special-camp/publish/tomboy
+
+file:///proj/special-camp/publish/index.html
+
+#===============================================================================
+# HOW TO RUN
+#===============================================================================
+
+ 
