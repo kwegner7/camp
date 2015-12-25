@@ -1,6 +1,7 @@
 
 http://kwegner7.github.io/camp/publish
 file:///proj/camp/publish/index.html
+https://github.com/kwegner7/camp.git
 
 
 #===============================================================================
@@ -13,13 +14,13 @@ And the link will be:
     http://kwegner7.github.io/camp
 
 # Create a new .git folder here
-  cd /proj/special-camp
+  cd /proj/camp
   git init
   git add . 
-  git commit -m "Special Camp Project"
+  git commit -m "Camp Administration Project"
 
 # Manually create a new repository at GitHub
-   click New Repository, then enter name "special-camp", then Create, then copy the link
+   click New Repository, then enter name "camp", then Create, then copy the link
 
 https://github.com/kwegner7/new-special-camp.git
 
