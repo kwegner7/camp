@@ -22,10 +22,10 @@ And the link will be:
 # Manually create a new repository at GitHub
    click New Repository, then enter name "camp", then Create, then copy the link
 
-https://github.com/kwegner7/new-special-camp.git
+https://github.com/kwegner7/camp.git
 
 # Add the new Github repository as a remote
-  git remote add github https://github.com/kwegner7/new-special-camp.git
+  git remote add github https://7155aa6db6647b440b4f3a46d534de55988f2020@github.com/kwegner7/camp.git
   git remote -v
   git push github master
 
@@ -36,14 +36,14 @@ https://github.com/kwegner7/new-special-camp.git
 
 # Create a backup repository on USB
   cd /media/kurt/8GB-BLUE4/git
-  git clone --mirror /proj/special-camp/.git
-  cd special-camp.git && git remote -v
+  git clone --mirror /proj/camp/.git
+  cd camp.git && git remote -v
       origin  /proj/special-camp/.git (fetch)
       origin  /proj/special-camp/.git (push)
 
 # Add the new backup repository as a remote
-  cd /proj/special-camp
-  git remote add backup /media/kurt/8GB-BLUE4/git/special-camp.git 
+  cd /proj/camp
+  git remote add backup /media/kurt/8GB-BLUE4/git/camp.git 
   git push -u backup gh-pages
   git diff gh-pages backup/gh-pages
 
@@ -58,29 +58,23 @@ git push github
 git push backup
 
 
+ 7155aa6db6647b440b4f3a46d534de55988f2020  
+
+git push https://7155aa6db6647b440b4f3a46d534de55988f2020@github.com/kwegner7/camp.git gh-pages
+
+https://github.com/blog/1270-easier-builds-and-deployments-using-git-over-https-and-oauth
 
 
 
-#===============================================================================
-# HOW TO DOCUMENT THE PROPOSED:NEW SPECIAL CAMP
-#===============================================================================
+Hi Bruce,
 
-/proj/special-camp/publish
-   contains index.html and reference-documents.html
-/proj/special-camp/publish/docs
-   contains the reference pdf documents of interest
-/proj/special-camp/publish/tomboy
-   contains tomboy notes from the notebook "SPECIAL CAMP DESCRIPTION"
+I have created 3 use cases that relate to each of the database tables that you have described. There may be mistakes here so let me know about them. The following is a link to a single html containing all 3:
 
-rm -r /proj/special-camp/publish/tomboy
-Open the notebook "SPECIAL CAMP DESCRIPTION"
-From Tomboy Search - Tools - Export - Export Selected Notebook
-to /proj/special-camp/publish/tomboy
+http://kwegner7.github.io/camp/publish
 
-file:///proj/special-camp/publish/index.html
+I used a tool called "umlet" to create the Use Case Diagrams. I manually created the HTML5 code. Both of these are easy to modify and if this kind of documentation is useful we can collaborate in the cloud on things like this.
 
-#===============================================================================
-# HOW TO RUN
-#===============================================================================
+Kurt
 
- 
+
+
