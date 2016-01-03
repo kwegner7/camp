@@ -34,7 +34,7 @@ https://github.com/kwegner7/camp.git
   git checkout gh-pages
   git push -u github gh-pages
 
-# Create a backup repository on USB
+# Create a backup repository on hard drive
   cd /media/kurt/8GB-BLUE4/git
   git clone --mirror /proj/camp/.git
   cd camp.git && git remote -v
@@ -57,7 +57,27 @@ git branch -v
 git push github
 git push backup
 
-
+########################################################################  
+# Create a backup repository on USB
+# It contains a master and a gh-pages branch.
+# It contains a remote branch called "origin"
+# The only remote for this repository is /proj/camp/.git
+# and it is known as "origin"
+  cd /media/kurt/8GB-BLUE4/git
+  git clone --mirror /proj/camp/.git
+  cd camp.git && git remote -v
+      origin  /proj/camp/.git (fetch)
+      origin  /proj/camp/.git (push)
+  
+# Back at the origin, git the new backup repository a remote name
+# and push to it
+  cd /proj/camp
+  git remote add usb /media/kurt/8GB-BLUE4/git/camp.git 
+# This sets push to push from the gh-pages branch of origin
+# to the gh-pages branch of usb
+  git push -u usb gh-pages
+  git diff gh-pages usb/gh-pages
+##########################################################################
  7155aa6db6647b440b4f3a46d534de55988f2020  
 
 git push https://7155aa6db6647b440b4f3a46d534de55988f2020@github.com/kwegner7/camp.git gh-pages
