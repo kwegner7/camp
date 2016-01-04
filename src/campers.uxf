@@ -38,9 +38,9 @@ bg=yellow</panel_attributes>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
       <x>1070</x>
-      <y>250</y>
-      <w>300</w>
-      <h>100</h>
+      <y>240</y>
+      <w>370</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Does in-person interview 
 of new camper and/or
@@ -52,10 +52,10 @@ as warranted
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>310</x>
-      <y>200</y>
-      <w>350</w>
-      <h>30</h>
+      <x>300</x>
+      <y>190</y>
+      <w>390</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>Submits Camper Profile via US Mail
 </panel_attributes>
@@ -94,7 +94,7 @@ bg=green
       <x>1100</x>
       <y>20</y>
       <w>120</w>
-      <h>140</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Core Group 
 fg=blue</panel_attributes>
@@ -114,10 +114,10 @@ fg=blue</panel_attributes>
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
-      <x>480</x>
+      <x>450</x>
       <y>920</y>
-      <w>540</w>
-      <h>160</h>
+      <w>600</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>Administrator
 (Camper Registrar, Camper Care Director, Camp Directors)
@@ -129,8 +129,8 @@ fg=blue
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
       <x>320</x>
-      <y>270</y>
-      <w>430</w>
+      <y>240</y>
+      <w>480</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>E-mails Camper Profile to Camper Registrar
@@ -140,9 +140,9 @@ fg=blue
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>340</x>
-      <y>330</y>
-      <w>350</w>
+      <x>330</x>
+      <y>280</y>
+      <w>410</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>Submits Scholarship Request Online
@@ -152,8 +152,8 @@ fg=blue
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>460</x>
-      <y>380</y>
+      <x>360</x>
+      <y>330</y>
       <w>470</w>
       <h>80</h>
     </coordinates>
@@ -166,9 +166,9 @@ when notification of acceptance is received
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>760</x>
+      <x>750</x>
       <y>840</y>
-      <w>460</w>
+      <w>540</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Notifies Camper Guardian of Camper Acceptance
@@ -181,7 +181,7 @@ when notification of acceptance is received
       <x>770</x>
       <y>640</y>
       <w>500</w>
-      <h>50</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Enters Camper information from Camper Profile
 into Campers Database
@@ -191,21 +191,22 @@ into Campers Database
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>300</x>
+      <x>360</x>
       <y>680</y>
-      <w>600</w>
-      <h>80</h>
+      <w>390</w>
+      <h>90</h>
     </coordinates>
-    <panel_attributes>Reviews Camper Profile and arranges for
-in-person interview and evaluation as warranted</panel_attributes>
+    <panel_attributes>Reviews Camper Profile 
+and arranges for in-person interview 
+and evaluation as warranted</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>770</x>
-      <y>750</y>
-      <w>400</w>
+      <x>760</x>
+      <y>730</y>
+      <w>460</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>Reviews/Approves Scholarship Requests</panel_attributes>
@@ -214,12 +215,13 @@ in-person interview and evaluation as warranted</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>360</x>
+      <x>510</x>
       <y>790</y>
-      <w>430</w>
-      <h>40</h>
+      <w>270</w>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>Approves Camper for enrollment at camp</panel_attributes>
+    <panel_attributes>Approves Camper for 
+enrollment at camp</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

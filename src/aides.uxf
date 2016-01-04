@@ -3,10 +3,10 @@
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
-      <x>180</x>
+      <x>160</x>
       <y>0</y>
       <w>100</w>
-      <h>140</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Aide
 fg=blue
@@ -16,10 +16,10 @@ fg=blue
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
-      <x>880</x>
+      <x>870</x>
       <y>10</y>
-      <w>140</w>
-      <h>140</h>
+      <w>160</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Recommender
 fg=blue</panel_attributes>
@@ -52,11 +52,11 @@ fg=blue</panel_attributes>
     <coordinates>
       <x>630</x>
       <y>520</y>
-      <w>460</w>
-      <h>450</h>
+      <w>410</w>
+      <h>400</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>440;430;30;30</additional_attributes>
+    <additional_attributes>390;380;30;30</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.UseCase</type>
@@ -73,9 +73,9 @@ bg=yellow</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>40</x>
-      <y>190</y>
-      <w>420</w>
+      <x>330</x>
+      <y>140</y>
+      <w>290</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>Submits Application Online
@@ -86,10 +86,10 @@ into Aides Database)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>910</x>
-      <y>210</y>
-      <w>380</w>
-      <h>70</h>
+      <x>900</x>
+      <y>200</y>
+      <w>420</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>Submits Recommendation Form Online
 (info goes directly into 
@@ -99,8 +99,8 @@ Recommendations Database)</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>950</x>
-      <y>740</y>
+      <x>890</x>
+      <y>710</y>
       <w>400</w>
       <h>60</h>
     </coordinates>
@@ -111,12 +111,13 @@ and submitted recommendations</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>110</x>
-      <y>790</y>
-      <w>350</w>
+      <x>220</x>
+      <y>760</y>
+      <w>240</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>Plans Aide Trainings and Retreat</panel_attributes>
+    <panel_attributes>Plans Aide Trainings
+      and Retreat</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -125,7 +126,7 @@ and submitted recommendations</panel_attributes>
       <x>250</x>
       <y>930</y>
       <w>180</w>
-      <h>140</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Core Team
 fg=blue</panel_attributes>
@@ -134,7 +135,7 @@ fg=blue</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>740</x>
+      <x>720</x>
       <y>580</y>
       <w>260</w>
       <h>40</h>
@@ -145,10 +146,10 @@ fg=blue</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>970</x>
-      <y>390</y>
-      <w>470</w>
-      <h>80</h>
+      <x>850</x>
+      <y>380</y>
+      <w>490</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>topcenter:Volunteer Recruiting Contacts Database
 Aides/Staff Database
@@ -163,19 +164,19 @@ bg=green
     <coordinates>
       <x>750</x>
       <y>410</y>
-      <w>240</w>
+      <w>120</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-&gt;&gt;</panel_attributes>
-    <additional_attributes>220;30;30;90</additional_attributes>
+    <additional_attributes>100;30;30;90</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>270</x>
-      <y>410</y>
-      <w>280</w>
-      <h>90</h>
+      <x>190</x>
+      <y>360</y>
+      <w>310</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Submits Registration Form
 and payment via US Mail
@@ -186,9 +187,9 @@ acceptance is received</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>380</x>
-      <y>210</y>
-      <w>200</w>
+      <x>140</x>
+      <y>260</y>
+      <w>230</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>Submits Scholarship
@@ -198,9 +199,9 @@ Request Online</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>180</x>
-      <y>300</y>
-      <w>420</w>
+      <x>450</x>
+      <y>250</y>
+      <w>270</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>Submits Information to
@@ -211,21 +212,21 @@ for background check</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>830</x>
-      <y>650</y>
-      <w>460</w>
+      <x>780</x>
+      <y>630</y>
+      <w>500</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>Corrects information in submitted applications,
-as needed</panel_attributes>
+   as needed</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>660</x>
-      <y>740</y>
-      <w>200</w>
+      <x>630</x>
+      <y>720</y>
+      <w>250</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>Reviews/Approves 
@@ -235,32 +236,32 @@ Scholarship Requests</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>1020</x>
-      <y>850</y>
-      <w>390</w>
-      <h>30</h>
+      <x>980</x>
+      <y>810</y>
+      <w>250</w>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>Selects Aides, notifies Aides of Acceptance</panel_attributes>
+    <panel_attributes>Selects Aides, notifies 
+Aides of Acceptance</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
-      <x>670</x>
-      <y>870</y>
-      <w>320</w>
-      <h>100</h>
+      <x>580</x>
+      <y>810</y>
+      <w>360</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Tracks Aide Training attendence 
-and
-CPR/First Aide certificattions</panel_attributes>
+   and CPR/First Aide certificattions</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
       <x>280</x>
-      <y>670</y>
+      <y>620</y>
       <w>220</w>
       <h>90</h>
     </coordinates>
@@ -272,13 +273,13 @@ recommendations</panel_attributes>
   <element>
     <type>com.umlet.element.Actor</type>
     <coordinates>
-      <x>960</x>
+      <x>780</x>
       <y>910</y>
-      <w>480</w>
-      <h>160</h>
+      <w>540</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>Administrator
-(Aide Registrar, Aide Care Director, Camp Directors)
+(Aide Registrar, Aide Care Director, Camp Directors)  
 fg=blue</panel_attributes>
     <additional_attributes/>
   </element>
