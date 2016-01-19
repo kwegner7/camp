@@ -26,6 +26,7 @@ https://github.com/kwegner7/camp.git
 
 # Add the new Github repository as a remote
   git remote add github https://7155aa6db6647b440b4f3a46d534de55988f2020@github.com/kwegner7/camp.git
+  git remote add github https://github.com/kwegner7/camp.git
   git remote -v
   git push github master
 
