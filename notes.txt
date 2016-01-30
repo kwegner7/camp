@@ -1,7 +1,21 @@
+#===============================================================================
+# camp.git is a series of use cases for the 
+# Camp Administration Information System
+# there is a build.bsh to create the pages
+#===============================================================================
+cd /proj/camp/build && build.bsh 
 
-http://kwegner7.github.io/camp/publish
-file:///proj/camp/publish/index.html
-https://github.com/kwegner7/camp.git
+#===============================================================================
+# Links
+#===============================================================================
+This is the main page, exported from the github repository:
+    http://kwegner7.github.io/camp/publish
+
+This is the local location of the main page:
+    file:///proj/camp/publish/index.html
+
+This is the github repository:
+    https://github.com/kwegner7/camp.git
 
 
 #===============================================================================
